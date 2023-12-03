@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Controle Financeiro</title>
+</head>
+<body>
+    <form class="row p-3 justify-content-center" action="/login" method='POST'>
+      <h1 class="row justify-content-center m-3">Autenticação do sistema</h1>
+        <div class="col-auto">
+          <label for="staticEmail2" class="visually-hidden">Usuário:</label>
+          <input type="text" name="usuario" class="form-control" id="usuario" placeholder="Nome do usuário" required>
+        </div>
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">Senha:</label>
+          <input type="password" name="senha" class="form-control" id="senha" placeholder="Informe a senha" required>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-success mb-3">Login</button>
+        </div>
+      </form>
+</body>
+</html>
